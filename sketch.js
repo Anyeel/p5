@@ -13,6 +13,4 @@ function setup() {
     //ellipse(sin(frameCount/20)*100 + 200, frameCount, 1)
     ellipse(noise(frameCount/velocidad)*amplitud + posX, frameCount, 1)
     ellipse(frameCount, noise(frameCount/velocidad)*amplitud + posY, 1)
-
-
   }
